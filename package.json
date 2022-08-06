@@ -16,6 +16,5 @@
     "format": "prettier --write *.{json,js,ts} src/*.{js,ts}",
     "lint": "eslint --max-warnings=0 src/** && prettier --check *.{json,js,ts} src/*.{js,ts}"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

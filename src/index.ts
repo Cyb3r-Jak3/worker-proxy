@@ -11,7 +11,7 @@ const proxies: ProxyPath[] = [
 ];
 
 export default {
-  async fetch(request: Request, ctx: ExecutionContext): Promise<Response> {
+  async fetch(request: Request): Promise<Response> {
     const origin = new URL(request.url);
 
     for (const proxy of proxies) {
